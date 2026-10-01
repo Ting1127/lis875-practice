@@ -1,7 +1,9 @@
 from turtle import *
 
+colors = ["yellow", "gold", "green"]
+
 for j in range(3):
-    color("yellow")
+    color(colors[j])
     begin_fill()
     for i in range(5):
       forward(100)
