@@ -8,7 +8,11 @@ while True:
     if name in birthdays:
         print(birthdays[name]+ ' is the birthday of ' + name)
     else:
-        print('I do not know the birthday of' + name)
+        print('I do not know the birthday of ' + name)
+        print('What is their birthday?')
+        bday = input()
+        birthdays[name] = bday
+        print('Birthday database updated')
 
 print('Blackpink in your area!')
 
