@@ -1,0 +1,6 @@
+たべる = eat
+のむ = drink
+みる = see
+いく = go
+ねる = sleep
+かう = buy
